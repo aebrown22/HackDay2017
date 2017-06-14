@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#004488">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:src="@mipmap/basketball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/sport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basketball"
+        android:layout_toRightOf="@id/imageView"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/playerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#00DDDD"
+        android:layout_toRightOf="@id/imageView"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"/>
+</RelativeLayout>
